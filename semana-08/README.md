@@ -37,9 +37,22 @@ Sistema de gestión de catálogo para StreamFlix refactorizado para usar colecci
 
 ## Cómo Ejecutar
 
+### Desde la raíz del proyecto:
+
 ```bash
 cd semana-08
-javac -d bin src/com/streamflix/**/*.java src/com/streamflix/*.java
+javac -d bin -sourcepath src src/com/streamflix/modelo/*.java src/com/streamflix/excepciones/*.java src/com/streamflix/servicio/*.java src/com/streamflix/*.java
+java -cp bin com.streamflix.Main
+```
+
+### Alternativa (compilando cada paquete):
+
+```bash
+cd semana-08
+javac -d bin src/com/streamflix/modelo/*.java
+javac -d bin src/com/streamflix/excepciones/*.java
+javac -d bin src/com/streamflix/servicio/*.java
+javac -d bin src/com/streamflix/*.java
 java -cp bin com.streamflix.Main
 ```
 
