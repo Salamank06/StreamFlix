@@ -1,9 +1,5 @@
 # Semana 04 - Herencia
 
-**Estudiante:** Santiago Salamanca  
-**Ficha:** 3228973A  
-**Dominio:** StreamFlix - Plataforma de Streaming
-
 ## Estructura del Proyecto
 
 - `Content.java` - Clase padre con atributos protected
@@ -28,4 +24,3 @@ java Main
 - Métodos sobrescritos con `@Override`
 - Polimorfismo con arrays
 - `instanceof` para identificar tipos
-

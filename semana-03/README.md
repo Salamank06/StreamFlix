@@ -1,9 +1,5 @@
 # Semana 03 - Encapsulación y Constructores
 
-**Estudiante:** Juan David Villada Valderrama  
-**Ficha:** 3228973A  
-**Dominio:** StreamFlix - Plataforma de Streaming
-
 ## Estructura del Proyecto
 
 - `StreamContent.java` - Contenido audiovisual con encapsulación completa
@@ -27,4 +23,3 @@ java Main
 - Sobrecarga de constructores (mínimo 2 por clase)
 - Validaciones en constructores y setters
 - Métodos auxiliares privados para validaciones
-

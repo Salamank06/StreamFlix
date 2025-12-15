@@ -1,9 +1,5 @@
 # Semana 05 - Polimorfismo
 
-**Estudiante:** Santiago Salamanca  
-**Ficha:** 3228973A  
-**Dominio:** StreamFlix - Plataforma de Streaming
-
 ## Estructura del Proyecto
 
 - `Content.java` - Clase padre con métodos para sobrescribir
@@ -28,4 +24,3 @@ java Main
 - Métodos polimórficos que aceptan Content
 - ArrayList polimórfico
 - Dynamic binding demostrado
-

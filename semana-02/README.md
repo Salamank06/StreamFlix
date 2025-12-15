@@ -1,9 +1,5 @@
 # Semana 02 - Clases y Objetos
 
-**Estudiante:** Juan David Villada Valderrama  
-**Ficha:** 3228973A  
-**Dominio:** StreamFlix - Plataforma de Streaming
-
 ## Estructura del Proyecto
 
 - `Subscriber.java` - Clase que representa un suscriptor de StreamFlix
@@ -19,3 +15,9 @@ javac *.java
 java Main
 ```
 
+## Características Implementadas
+
+- 2 nuevas clases (Subscriber, SubscriptionPlan)
+- Relaciones entre objetos (PlaybackSession relaciona Subscriber y StreamContent)
+- Uso de ArrayList en StreamFlixPlatform
+- 5 instancias de objetos en Main
